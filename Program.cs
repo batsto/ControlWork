@@ -32,3 +32,13 @@ string[] NewStringArray(string[] strings, int amount)
     }
     return result;
 }
+
+//Создаем функцию для печати массива в консоле.
+void PrintArray(string[] strings)
+
+{
+    for (int i = 0; i < strings.Length; i++)
+    {
+        Console.WriteLine($"{strings[i]}");
+    }
+}
