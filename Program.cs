@@ -1,6 +1,7 @@
 ﻿
 string[] str = {"1234", "567", "asd", "fghjl", "sport", "ref123", "9", "345", "javascript", "pyton", "tre"};
 
+PrintArray(NewStringArray(str, AmountElementsArray(str)));
 
 
 //Создаем функцию для подсчета количества строк, длина которых меньше либо равна 3.
