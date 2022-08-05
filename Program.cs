@@ -16,3 +16,19 @@ int AmountElementsArray(string[] strings)
     }
     return count;
 }
+
+// Создаем функцию которая создает новый массив строк длинной равной или меньше 3.
+string[] NewStringArray(string[] strings, int amount)
+{
+    string[] result = new string[amount];
+    int index = 0;
+    for (int i = 0; i < strings.Length; i++)
+    {
+        if(strings[i].Length <= 3)
+        {
+            result[index] = strings[i];
+            index++;
+        }
+    }
+    return result;
+}
